@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art and Design</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2.5em;
+            font-family: 'Brush Script MT', cursive;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art and Design</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content">
+        <h2 class="section-title">Welcome to Art and Design</h2>
+        <p>Art and Design is dedicated to encouraging people to create their own type of art and design. We believe that any form of art can be transformed into a beautiful design, and we're here to help you upgrade and explore your creativity in any way you want to.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2 class="section-title">About Us</h2>
+        <p>At Art and Design, our mission is to inspire and support artists and designers of all kinds. Whether you're a painter, sculptor, graphic designer, or anything in between, we believe that your work can be enhanced and appreciated in new ways. We provide resources, inspiration, and a platform to showcase your unique creations.</p>
+    </section>
+
+    <section id="portfolio" class="content">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio">
+            <img src="https://via.placeholder.com/800x400?text=Artwork+1" alt="Artwork 1">
+            <img src="https://via.placeholder.com/800x400?text=Artwork+2" alt="Artwork 2">
+            <img src="https://via.placeholder.com/800x400?text=Artwork+3" alt="Artwork 3">
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <p>Feel free to reach out to us at:</p>
+            <p><a href="mailto:amberryblueberrymuffins@gmail.com">amberryblueberrymuffins@gmail.com</a></p>
+        </div>
+    </section>
+</body>
+</html>
